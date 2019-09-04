@@ -1,0 +1,85 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.container{
+  margin: 10px auto;
+  width: 420px;
+  background-color: white;
+}
+
+nav{
+  margin: 0 auto;
+  padding: 15px;
+  position: fixed;
+  width: 420px;
+  background-color: #ECECEC;
+}
+
+.chevron-left{
+  float: left;
+  color: #2196F3;
+}
+
+h1{
+  text-align: center;
+  font-size: 20px;
+}
+
+.heart{
+  float: right;
+  color: #FF0000;
+}
+
+.timetable{
+  padding-top: 50px;
+}
+
+.line-info{
+    height: 70px;
+    border-bottom: 1px solid #F8F8F8;
+    padding: 12px;
+    width: 420px;
+    background-color: white;
+}
+
+/*Not sure if hover is necessary
+.line-info:hover{
+  background-color: #666
+}
+*/
+
+.content{
+  display: inline;
+}
+
+/*line number*/
+h3{
+  text-align: left;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+/*destination*/
+h4{
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*frequency*/
+h5{
+  text-align: right;
+  padding-right: 15px;
+  vertical-align: middle;
+}
+
+.arrow-right{
+  float: right;
+  color: #2196F3;
+}
