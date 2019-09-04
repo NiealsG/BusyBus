@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+/* this is meant to change font to San Francisco
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+*/
+
 body{
   background-color: #333;
   font-family: sans-serif;
